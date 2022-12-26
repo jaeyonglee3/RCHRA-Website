@@ -681,7 +681,7 @@ section {
 #services .box:hover {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);           /* hovering animation */
   -moz-transform: translateY(-10px);
 }
 
@@ -1167,6 +1167,38 @@ section {
   color: #000;
 }
 
+.bi-facebook:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);           /* hovering animation */
+  -moz-transform: translateY(-10px);
+}
+
+.bi-facebook:not(:hover) {
+  transition: transform 0.3s ease-in-out;
+}
+
+.bi-envelope:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);           /* hovering animation */
+  -moz-transform: translateY(-10px);
+}
+
+.bi-envelope:not(:hover) {
+  transition: transform 0.3s ease-in-out;
+}
+
+.bi-instagram:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);           /* hovering animation */
+  -moz-transform: translateY(-10px);
+}
+.bi-instagram:not(:hover) {
+  transition: transform 0.3s ease-in-out;
+}
+
 #contact .contact-info a:hover {
   color: #50d8af;
 }
@@ -1305,6 +1337,10 @@ button {
   border:none;
   background-color:transparent;
   outline:none;
+}
+
+.spacer {
+  padding-top: 20px;
 }
 
 /*--------------------------------------------------------------
