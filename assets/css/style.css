@@ -839,7 +839,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #50d8af;
+  background: var(--dartmouth-green);
   padding: 15px 20px;
 }
 
@@ -891,7 +891,9 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
+  height: 470px;
   width: 100%;
+  object-fit: contain;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -913,21 +915,27 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
+  border-radius: 11px;
   box-shadow: 0px 0 30px rgba(12, 46, 138, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 3px solid var(--dartmouth-green);
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+/* TODO fix this later */
+.portfolio-details .portfolio-info ul > .description { 
+  padding-top: 20px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
