@@ -1,8 +1,5 @@
 /**
-* Template Name: Reveal - v4.9.1
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+Main JavaScript file
 */
 
 // @ts-check
