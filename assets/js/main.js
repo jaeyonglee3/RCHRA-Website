@@ -1,7 +1,3 @@
-/**
-Main JavaScript file
-*/
-
 // @ts-check
 
 function copyToClipboard() {
