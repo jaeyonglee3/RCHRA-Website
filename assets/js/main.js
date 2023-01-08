@@ -1,16 +1,17 @@
-// @ts-check
-
-function copyToClipboard() {
-  navigator.clipboard.writeText("rchra.rotmancommerce@gmail.com");
-}
-
-
+// Main js file for website 
 
 (function() {
   "use strict";
 
   /**
-   * Easy selector helper function
+   * Copy to clipboard function for contact page
+   */
+  function copyToClipboard() {
+    navigator.clipboard.writeText("rchra.rotmancommerce@gmail.com");
+  }
+
+  /**
+   * Selector helper function
    */
   const select = (el, all = false) => {
     el = el.trim()
@@ -22,7 +23,7 @@ function copyToClipboard() {
   }
 
   /**
-   * Easy event listener function
+   * Event listener function
    */
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
@@ -36,7 +37,7 @@ function copyToClipboard() {
   }
 
   /**
-   * Easy on scroll event listener 
+   * On scroll event listener 
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -82,8 +83,6 @@ function copyToClipboard() {
     onscroll(document, headerFixed)
   }
 
-
-  
   /**
    * Mobile nav toggle
    */

@@ -2,83 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"></meta>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>RCHRA | Home</title>
   <meta content="" name="description">
-  <meta content="" name="keywords">
 
   <!-- Favicon -->
   <link href="assets/img/favicon.ico" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
-
-  <!-- Main CSS File -->
+  
+  <!-- CSS Files -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
 </head>
 
 <body>
 
-  <!-- ======= Top Bar (Very top contact section) VERSION WITH NO EMAIL======= -->
-  <!-- <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-end">
-      <div class="social-links">
-        <a href="https://www.facebook.com/RCHRA/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/rchra.uoft/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/rchra/about/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section>End Top Bar -->
-
-  <!-- ======= Top Bar (Very top contact section) VERSION WITH EMAIL ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">rchra.rotmancommerce@gmail.com</a></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://www.facebook.com/RCHRA/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/rchra.uoft/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/rchra/about/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section><!-- End Top Bar-->
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div id="logo">
-        <h1><a href="index.html">RC<span>HR</span>A</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="events.html">Events</a></li>
-          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <!-- The Navigation Bar React Component -->
+  <div id="nav_bar" currentPage="Home"></div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -181,7 +127,7 @@
                   Business school can be daunting, scary and overwhelming. Having RCHRA by my side since my first year has not only guided me through my academic journey at Rotman Commerce, but has also introduced me to some of my best friends at the University.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
-                <img src="assets/img/team-page/alfred.jpeg" class="testimonial-img" alt="">
+                <img src="assets/img/team-page/alfred.jpg" class="testimonial-img" alt="">
                 <h3>Alfred Fang</h3>
                 <h4>First-Year Intern</h4>
               </div>
@@ -358,6 +304,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <!-- REACT STUFF -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <!-- Load our React component. -->
+  <script type="text/babel" src="assets/js/NavigationBar.jsx"></script>
 
 </body>
 
