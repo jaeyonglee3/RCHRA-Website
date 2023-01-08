@@ -58,10 +58,6 @@ class NavigationBar extends React.Component {
   }
 }
 
-// const domContainer = document.querySelector('#nav_bar');
-// const root = ReactDOM.createRoot(domContainer);
-// root.render(e(NavigationBar));
-
-const root = ReactDOM.createRoot(document.getElementById('nav_bar'));
-const element = <NavigationBar currentPage="Home" />;
-root.render(element);
+const domContainer = document.querySelector('#nav_bar');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(NavigationBar));
