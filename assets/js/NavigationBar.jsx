@@ -32,7 +32,7 @@ class NavigationBar extends React.Component {
                 <div class="container d-flex justify-content-between">
             
                     <div id="logo">
-                    <h1><a href="index.html">RC<span>HR</span>A</a></h1>
+                        <a href="index.html"><img src="assets/img/RCHRA logo.png" alt="RCHRA Logo"></img></a>
                     </div>
             
                     <nav id="navbar" class="navbar">
