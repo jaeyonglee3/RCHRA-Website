@@ -21,7 +21,7 @@ class NavigationBar extends React.Component {
                     <div class="social-links d-none d-md-flex align-items-center">
                         <a href="https://www.facebook.com/RCHRA/" class="facebook"><i class="bi bi-facebook"></i></a>
                         <a href="https://www.instagram.com/rchra.uoft/" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/rchra/about/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        {/* <a href="https://www.linkedin.com/company/rchra/about/" class="linkedin"><i class="bi bi-linkedin"></i></a> */}
                     </div>
 
                 </div>
